@@ -4,7 +4,7 @@ import subprocess
 import os, signal
 from subprocess import check_output
 
-# Echobot example from fbchat, set to i/o to/from the chatterbot instance
+# An FBChat "Echobot", set up to pass string values in/out of a local shell using Python's subprocess module
 class EchoBot(Client):
     def onMessage(self, author_id, message, thread_id, thread_type, **kwargs):
         self.markAsDelivered(author_id, thread_id)
@@ -22,4 +22,4 @@ client = EchoBot("YourFBLoginEmail@example.com", "YourFBPasswordHere")
 client.listen()
 
 #if it crashes, just start over
-os.system("CMDbot.py")
+os.system("FBcmd.py")

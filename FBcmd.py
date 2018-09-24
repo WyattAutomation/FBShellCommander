@@ -17,7 +17,8 @@ class EchoBot(Client):
             process.wait()
             cmd_output = process.stdout.read()
             self.sendMessage(cmd_output, thread_id=thread_id, thread_type=thread_type)
-
+            
+#replace "YourFBLoginEmail@example.com", "YourFBPasswordHere" with a real Facebook login
 client = EchoBot("YourFBLoginEmail@example.com", "YourFBPasswordHere")
 client.listen()
 

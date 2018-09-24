@@ -1,7 +1,7 @@
 # FBShellCommander
 
 
-Run a remote shell through Facebook Messenger: Linux or Windows.  Allows you to send commands, and recieve output from the CLI (terminal or CMD) on the deivce it's installed on.
+Run a remote shell through Facebook Messenger: Linux or Windows.  Allows you to send commands, and recieve output from the CLI (terminal or CMD) on the deivce it's installed on, through a Facebook profile that you set it up to use.
 
 ##Installation
 
